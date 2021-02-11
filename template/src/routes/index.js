@@ -25,9 +25,7 @@ export function PrivateRoute({ component: Component, ...rest }) {
 
 export const PageRouter = (props) => {
   const PreLoader = props.preloader;
-  const { initialized, keycloak } = useKeycloak();
-
-  console.log(keycloak);
+  const { initialized } = useKeycloak();
   if (!initialized) {
     return <PreLoader msg={`Contacting keycloak host ...`} />;
   }
