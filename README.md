@@ -62,12 +62,11 @@ You will see the default CRA with login and register buttons.
 
 # Login
 
-Login with a Keycloak user or register a new one
-You will see the how the buttons have become a logout button.
+Login with a Keycloak user or register a new one. When successful, you will see a logout button.
 
 ![ReactJS Template](https://raw.githubusercontent.com/danielschlieder/cra-template-keycloak-starter/master/app-screenshot-authed.png "CRA after login")
 
-Check the [source](./src/components/pages/default/index.js) of how easy you switch the buttons.
+Check the [source](https://raw.githubusercontent.com/danielschlieder/cra-template-keycloak-starter/src/components/pages/default/index.js) of how easy you switch the buttons.
 
 # Usermenu
 
