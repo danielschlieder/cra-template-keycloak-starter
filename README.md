@@ -14,7 +14,7 @@ This template is based on [cra-template-using-atomic-design](https://github.com/
 
 # Motivation
 
-I created this template to be ablte to create react apps, with a connected IAM (instead of developing everything myself).
+I created this template to be able to create react apps, with a connected IAM (instead of developing everything myself).
 
 Whereas many solutions are available (Auth0, Okta and many more), this CRA is configured to use [Keycloak](https://www.keycloak.org/) to manage users.
 
