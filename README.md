@@ -66,7 +66,7 @@ Login with a Keycloak user or register a new one. When successful, you will see 
 
 ![ReactJS Template](https://raw.githubusercontent.com/danielschlieder/cra-template-keycloak-starter/master/app-screenshot-authed.png "CRA after login")
 
-Check the [source](https://raw.githubusercontent.com/danielschlieder/cra-template-keycloak-starter/src/components/pages/default/index.js) of how easy you switch the buttons.
+Check the source file (src/components/pages/default/index.js) to see, how you switch the buttons.
 
 # Usermenu
 
