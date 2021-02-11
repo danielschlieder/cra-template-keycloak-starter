@@ -10,7 +10,7 @@ Table of contents
 - [Usermenu](#usermenu)
 - [Further information](#further-information)
 
-This template is based on [cra-template-using-atomic-design](https://github.com/danielschlieder/cra-template-using-atomic-design). Please find the original documentation [here](https://raw.githubusercontent.com/danielschlieder/cra-template-using-atomic-design/main/README.md)
+This template is based on [cra-template-using-atomic-design](https://github.com/danielschlieder/cra-template-using-atomic-design). Please find the original documentation [here](./README.org.md)
 
 # Motivation
 
