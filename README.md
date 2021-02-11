@@ -58,14 +58,14 @@ cd my-app && npm run start
 
 You will see the default CRA with login and register buttons.
 
-![ReactJS Template](app-screenshot-start.png "CRA with login and register buttons")
+![ReactJS Template](https://github.com/danielschlieder/cra-template-keycloak-starter/raw/master/app-screenshot-start.png "CRA with login and register buttons")
 
 # Login
 
 Login with a Keycloak user or register a new one
 You will see the how the buttons have become a logout button.
 
-![ReactJS Template](app-screenshot-authed.png "CRA after login")
+![ReactJS Template](https://github.com/danielschlieder/cra-template-keycloak-starter/raw/master/app-screenshot-authed.png "CRA after login")
 
 Check the [source](./src/components/pages/default/index.js) of how easy you switch the buttons.
 
@@ -73,7 +73,7 @@ Check the [source](./src/components/pages/default/index.js) of how easy you swit
 
 Further I added a simply usermenu. The link "account" will redirect you to the keycloak host and opens your account details there.
 
-![ReactJS Template](app-screenshot-dropdown.png "CRA usermenu")
+![ReactJS Template](https://github.com/danielschlieder/cra-template-keycloak-starter/raw/master/app-screenshot-dropdown.png "CRA usermenu")
 
 # Further information
 
