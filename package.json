@@ -1,6 +1,6 @@
 {
     "name": "cra-template-keycloak-starter",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "keywords": [
         "react",
         "create-react-app",
@@ -9,7 +9,7 @@
         "react keycloak starter",
         "keycloak"
     ],
-    "description": "The base template for Create React App with keycloak enabled",
+    "description": "The base template for Create React App - with keycloak enabled",
     "repository": {
         "type": "git",
         "url": "https://github.com/danielschlieder/cra-template-keycloak-starter",
