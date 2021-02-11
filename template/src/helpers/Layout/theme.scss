@@ -1,0 +1,51 @@
+@import "../../variables.scss";
+.theme-dark {
+    color: $light;
+    border-color: darken($light, 50) !important;
+    background-color: $dark !important;
+    .react-switch-bg {
+        background-color: rgb(97 218 251) !important;
+    }
+    .navbar,
+    .dropdown-menu {
+        background-color: $dark !important;
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+        }
+    }
+    .dropdown-menu,
+    .dropdown-item,
+    .btn,
+    a {
+        color: $light !important;
+    }
+    .dropdown-menu:hover,
+    .dropdown-item:hover,
+    a:hover,
+    a:active {
+        color: darken($light, 60) !important;
+    }
+}
+.theme-light {
+    color: lighten($dark, 20) !important;
+    border-color: darken($dark, 50) !important;
+    background-color: $light !important;
+    .navbar {
+        background-color: $light !important;
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='black' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+        }
+        a {
+            color: lighten($dark, 20) !important;
+        }
+
+        a:hover,
+        a:active {
+            color: lighten($dark, 50) !important;
+        }
+    }
+    .badge-dark {
+        color: darken($light, 10) !important;
+        background-color: $dark;
+    }
+}

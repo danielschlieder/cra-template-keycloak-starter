@@ -1,0 +1,93 @@
+@import "../../variables.scss";
+
+// Enable bootstrap grid here, when you need it.
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/close";
+@import "~bootstrap/scss/buttons";
+
+// Enable the following to enable print classes, when you need it.
+//@import "~bootstrap/scss/print";
+
+// // defines a page header for printing
+// .page-header {
+//     display: none;
+//     .col-4 {
+//         border-top: 1px solid black;
+//     }
+//     .col-4:first-child {
+//         border-left: 1px solid black;
+//     }
+//     font-size: 12pt;
+// }
+// // defines a page footer for printing
+// .page-footer {
+//     display: none;
+//     .col-4 {
+//         border-bottom: 1px solid black;
+//     }
+//     .col-4:last-child {
+//         border-right: 1px solid black;
+//     }
+//     font-size: 10pt;
+// }
+
+// @page {
+//     background: white;
+//     display: block;
+//     margin-left: 2cm;
+//     margin-right: 2cm;
+//     margin-bottom: 0.5cm;
+//     padding-bottom: 1.5cm;
+//     margin-top: 0.5cm;
+//     box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+// }
+// @page [size="A4"] {
+//     width: 21cm;
+//     min-height: 29.7cm;
+// }
+// @page [size="A4"][layout="portrait"] {
+//     width: 29.7cm;
+//     height: 21cm;
+// }
+// @page [size="A3"] {
+//     width: 29.7cm;
+//     height: 42cm;
+// }
+// @page [size="A3"][layout="portrait"] {
+//     width: 42cm;
+//     height: 29.7cm;
+// }
+// @page [size="A5"] {
+//     width: 14.8cm;
+//     height: 21cm;
+// }
+// @page [size="A5"][layout="portrait"] {
+//     width: 21cm;
+//     height: 14.8cm;
+// }
+
+// #root {
+//     counter-reset: pageTotal;
+// }
+// #root .A4 {
+//     counter-increment: pageTotal;
+//     page-break-after: always;
+// }
+// #root {
+//     counter-reset: currentPage;
+// }
+// #root div:before {
+//     counter-increment: currentPage;
+// }
+// .no-padding {
+//     margin-top: 0 !important;
+//     padding-top: 0 !important;
+//     margin-bottom: 0 !important;
+//     padding-bottom: 0 !important;
+// }
