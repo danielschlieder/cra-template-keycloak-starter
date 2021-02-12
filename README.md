@@ -32,8 +32,6 @@ Your Keycloak host must be configured in `src/keycloak.js`.
 
 Create a realm for this CRA if needed. The defaults - provided by Keycloak on realm creation, seem to work flawlessly, at least for me. If you want the register function to work, you need to enable this feature, when creating the realm.
 
-If your Keycloak host is misconfigured, your app will stay in preloading state, reading "Contacting keycloak host ...".
-
 Edit `src/keycloak.js`
 
 ```
@@ -47,6 +45,10 @@ const keycloak = Keycloak({
 export default keycloak;
 
 ```
+
+If your Keycloak host is misconfigured, your app will stay in preloading state, reading "Contacting keycloak host ...".
+
+![ReactJS Template](https://raw.githubusercontent.com/danielschlieder/cra-template-keycloak-starter/master/app-screenshot-keycloak.png "CRA with login and register buttons")
 
 # Start
 
@@ -70,7 +72,7 @@ Check the source file (src/components/pages/default/index.js) to see, how you sw
 
 # Usermenu
 
-Further I added a simply usermenu. The link "account" will redirect you to the keycloak host and opens your account details there.
+Further I added a simple usermenu. The link "account" will redirect you to the keycloak host and opens your account details there.
 
 ![ReactJS Template](https://raw.githubusercontent.com/danielschlieder/cra-template-keycloak-starter/master/app-screenshot-dropdown.png "CRA usermenu")
 
