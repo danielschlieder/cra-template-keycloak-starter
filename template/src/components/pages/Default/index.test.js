@@ -4,8 +4,6 @@ import Page from "./index";
 import PreLoader from "../../molecules/Preloader";
 import { ReactKeycloakProvider } from "@react-keycloak/web";
 import keycloak from "../../../keycloak";
-const Header = React.lazy(() => import("../../templates/Header"));
-const Navbar = React.lazy(() => import("../../organisms/Navbar"));
 
 describe("Comp without props", () => {
   it("should render without props", async () => {
