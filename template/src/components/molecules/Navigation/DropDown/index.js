@@ -13,7 +13,7 @@ const DropDown = (props) => {
   const { keycloak } = useKeycloak();
   const [user, setUser] = useState({ name: "Not logged in" });
   if (keycloak.authenticated) {
-    if (keycloak.userInfo || user.name === "Not logged in") {
+    if (!keycloak.userInfo || user.name === "Not logged in") {
       keycloak.loadUserInfo().then((u) => {
         setUser(u);
       });
